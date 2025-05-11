@@ -1,3 +1,4 @@
+
 import streamlit as st # type: ignore
 import pandas as pd # type: ignore
 import numpy as np # type: ignore
@@ -12,7 +13,7 @@ st.title("🩺 Diabetes Prediction App (SVM + PCA)")
 st.write("Upload your health data to get a diabetes prediction using an SVM model with PCA.")
 
 # File uploader
-uploaded_file = st.file_uploader("Upload a CSV file with your data", type=["csv"])
+uploaded_file = st.file_uploader("E:\downloads\diabetes_binary_5050split_health_indicators_BRFSS2015.csv", type=["csv"])
 
 if uploaded_file is not None:
     data = pd.read_csv(uploaded_file)
