@@ -1,12 +1,11 @@
-
-import streamlit as st
-import pandas as pd
-import numpy as np
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
-from sklearn.svm import SVC
-from sklearn.pipeline import Pipeline
-import joblib
+import streamlit as st # type: ignore
+import pandas as pd # type: ignore
+import numpy as np # type: ignore
+from sklearn.preprocessing import StandardScaler # type: ignore
+from sklearn.decomposition import PCA # type: ignore
+from sklearn.svm import SVC # type: ignore
+from sklearn.pipeline import Pipeline # type: ignore
+import joblib # type: ignore
 
 # Title
 st.title("🩺 Diabetes Prediction App (SVM + PCA)")
